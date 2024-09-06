@@ -1,0 +1,4148 @@
+{
+  "repository": {
+    "pullRequests": {
+      "edges": [
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-17T08:14:20Z",
+            "title": "GPU TPC: Fixes for overflow handling during slice data GRID creation",
+            "number": 13391,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-18T21:23:42Z",
+            "title": "Github Actions: Fix datamodel-doc auto PR syntax",
+            "number": 13392,
+            "author": {
+              "login": "singiamtel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/datamodel-doc.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters",
+            "number": 13393,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/datamodel-doc.yml"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/VertexerTraitsGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/VertexerTraitsGPU.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/Vertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/VertexerTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Vertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/include/TOFCompression/Compressor.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/compression/src/Compressor.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ChannelInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataTypes.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SendingPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisDataModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HistogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAGenRTC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDArtc.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/per_kernel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCSliceData.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/cmake/config.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastSpaceChargeCorrection.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-18T22:37:52Z",
+            "title": "Allow = sign in ConfigurableParam values",
+            "number": 13394,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Utils/src/ConfigurableParam.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-26T14:02:07Z",
+            "title": "IT3: Initial Hit misalignment, disabling tiles, LegendrePolynominals",
+            "number": 13395,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/LegendrePols.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/src/MathUtilsLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/include/ITS3Align/Deformations.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/include/ITS3Align/MisalignmentHits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/include/ITS3Align/MisalignmentManager.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/include/ITS3Align/MisalignmentParameters.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/src/Deformations.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/src/ITS3AlignLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/src/MisalignmentHits.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/src/MisalignmentManager.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/alignment/src/MisalignmentParameters.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/ITS3Params.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/MisalignmentParameter.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SegmentationSuperAlpide.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/include/ITS3Base/SpecsV2.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/src/ITS3BaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/src/ITS3Params.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/base/src/MisalignmentParameter.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/align/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/align/CheckResidualsITS3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/align/CreateMisalignmentITS3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/align/MisAlignGeoITS3.notest"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/align/ShowCoefficients.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/align/TestLegendrePol.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckClustersITS3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckDigitsITS3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckTileNumbering.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CheckTracksITS3.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/CreateITS3StaticDeadMap.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/macros/test/TestSensorGeometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/include/ITS3Reconstruction/IOUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/BuildTopologyDictionary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/Clusterer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/IOUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/DescriptorInnerBarrelITS3.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/include/ITS3Simulation/ITS3Layer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/src/Digitizer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/simulation/src/ITS3Layer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/workflow/include/ITS3Workflow/TrackerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/workflow/src/TrackWriterSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/workflow/src/TrackerSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/ITS3DigitizerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-19T14:27:55Z",
+            "title": "Revert \"DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources\"",
+            "number": 13396,
+            "author": {
+              "login": "jgrosseo"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisDataModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HistogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TableBuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-19T08:39:04Z",
+            "title": "Please consider the following formatting changes to #13396",
+            "number": 13397,
+            "author": {
+              "login": "alibuild"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-19T15:00:24Z",
+            "title": "GPU: Several Fixes for RTC on the EPNs",
+            "number": 13398,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAGenRTC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Revert \"DPL Analysis: make table origin a dynamic property in preparation to handle multiple sources (#13358)\"",
+            "number": 13399,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisDataModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HistogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TableBuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-20T14:10:32Z",
+            "title": "disable HV-based digit filtering in MUON_SYNC_RECO",
+            "number": 13400,
+            "author": {
+              "login": "pillot"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-19T21:57:37Z",
+            "title": "ITS Tracking Interface: cleanup ROF-rejection message",
+            "number": 13401,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-20T07:01:10Z",
+            "title": "GPU: Improve RTC to compile only for required architectures on the EPN + related fixes",
+            "number": 13402,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAGenRTC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/per_kernel/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/cmake/config.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-20T11:07:48Z",
+            "title": "GPU TPC: Compile-time disable V/M-Shape correction during RTC",
+            "number": 13403,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAGenRTC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDArtc.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/TPCFastTransformation/TPCFastTransform.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-20T18:45:14Z",
+            "title": "Logging error and clearing output upon timeout",
+            "number": 13404,
+            "author": {
+              "login": "TrifleMichael"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBDownloader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-20T11:14:41Z",
+            "title": "Fix chaining of expendable devices",
+            "number": 13405,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ChannelInfo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/SendingPolicy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-20T10:45:02Z",
+            "title": "Temporarily use longer CCDB timeout to avoid crashes, delays still to be understood.",
+            "number": 13406,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-20T16:26:12Z",
+            "title": "Fix in the check of alignment conf method call result",
+            "number": 13407,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Align/Workflow/src/BarrelAlignmentSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-02T09:19:35Z",
+            "title": "add generic getter to expression column creation macro",
+            "number": 13408,
+            "author": {
+              "login": "mytkom"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-04T08:21:15Z",
+            "title": "FIT: Install macro for reading dead channel map",
+            "number": 13409,
+            "author": {
+              "login": "andreasmolander"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-22T05:25:09Z",
+            "title": "DPL Analysis: dynamic table origin",
+            "number": 13410,
+            "author": {
+              "login": "aalkin"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ASoA.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisManagers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TableBuilder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AODReaderHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_TableBuilder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_ASoAHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisDataModel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_AnalysisTask.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_HistogramRegistry.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/test_TableBuilder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-23T07:30:38Z",
+            "title": "Data model: add uint8_t flag to tag upc reco settings",
+            "number": 13411,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-21T14:10:12Z",
+            "title": "Use IS_SIMULATED_DATA to detect MC data",
+            "number": 13412,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-21T18:54:25Z",
+            "title": "GPU: Minor changes",
+            "number": 13413,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionCPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/start_tmux.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-22T07:00:03Z",
+            "title": "MRRTF-227: added ERRORS and HBPACKETS dummy messages",
+            "number": 13414,
+            "author": {
+              "login": "aferrero2707"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Workflow/src/DataDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Propagate ITS UPC mode flag to final PVs",
+            "number": 13415,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/ROFRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Vertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-23T21:22:24Z",
+            "title": "Propagate ITS UPC mode flag to matching AOD BCs and collisions",
+            "number": 13416,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ITSMFT/common/include/DataFormatsITSMFT/ROFRecord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Vertex.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/include/AODProducerWorkflow/AODProducerWorkflowSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/src/PrimaryVertexingSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/VertexerTraits.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataTypes.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Add fraction of TPC clusters used for PID to AO2D",
+            "number": 13417,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/AOD/src/AODProducerWorkflowSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataTypes.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-22T11:06:58Z",
+            "title": "GPU RTC: Remove --gcc-toolchain from RTC string with SED if we use the alidist GCC-Toolchain, since it will break with relocation",
+            "number": 13418,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-22T12:28:26Z",
+            "title": "GPU: Provide automatic comparison operator for GPU param structs and use it to verify RTC parameter validity",
+            "number": 13419,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/GPUReconstructionCUDAGenRTC.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceConfigurableParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/utils/qconfig.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "add track extras for run 2 + store SPD tracklet flag for free vs. shared clusters",
+            "number": 13420,
+            "author": {
+              "login": "maciacco"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/DataTypes.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-23T07:34:14Z",
+            "title": "Add a const getInterval() in QualityControlFlag interface",
+            "number": 13421,
+            "author": {
+              "login": "knopers8"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/QualityControl/include/DataFormatsQualityControl/QualityControlFlag.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T17:15:12Z",
+            "title": "Utility to keep only some trees out of the AO2Ds",
+            "number": 13422,
+            "author": {
+              "login": "mpuccio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/AODMerger/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/AODMerger/src/aodStrainer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "[QC-TPC] Remove non-mergable objects from PID task. Add switch for hy…",
+            "number": 13423,
+            "author": {
+              "login": "makor"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/PID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/PID.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-23T19:25:17Z",
+            "title": "DPL: assert that the dummy sink never depends on itself",
+            "number": 13424,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TopologyPolicy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-23T20:58:08Z",
+            "title": "GPU: Fix HIP compilation with GCC 13, enable O2_GPU_RTC by default on EPNs, and a bit of cleanup",
+            "number": 13425,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstruction.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionAvailableBackends.template.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUReconstructionLibrary.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/cmake/config.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/dpl-workflow.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-23T20:59:06Z",
+            "title": "Silence bogus compiler warnings from GCC 13 - WORKAROUND - to be remo…",
+            "number": 13426,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/MUON/MCH/Triggering/src/EventFinder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/rANS/test/test_ransReverseSymbolLookupTable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "HistogramSpec: add missing L types",
+            "number": 13427,
+            "author": {
+              "login": "ddobrigk"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/HistogramSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/HistogramSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-26T17:26:30Z",
+            "title": "SVectorGPU and SMatrixGPU implementation should be in detail namespace",
+            "number": 13428,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/test/testSMatrixImp.cu"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-27T21:00:11Z",
+            "title": "ALIGN: request only selected alignment objects",
+            "number": 13429,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GRP/workflows/src/create-aligned-geometry.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-26T13:53:01Z",
+            "title": "o2-sim: Ability to adjust default option values depending on Run5 or not",
+            "number": 13430,
+            "author": {
+              "login": "sawenzel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/include/SimConfig/SimConfig.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-26T17:35:52Z",
+            "title": "GPU: GPUWorkflowSpec will provide the o2::Propagator later, disable c…",
+            "number": 13431,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Workflow/src/GPUWorkflowSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "add cluster pattern to TOF chi2",
+            "number": 13432,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchTOF.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-27T12:10:22Z",
+            "title": "GPUQA: Treat O2 unset and O2 noise labels correctly",
+            "number": 13433,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T18:04:57Z",
+            "title": "ITS calib: update default VCASN and bug fix for ITHR scan",
+            "number": 13434,
+            "author": {
+              "login": "iravasen"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/include/ITSWorkflow/ThresholdCalibratorSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/ThresholdCalibratorSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": " Decay3Bodys: Add mass hypothesis for H4L, He4L and He5L, use the charge hypothesis of bachelor for invariant mass check",
+            "number": 13435,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/Decay3Body.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/PID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/Decay3Body.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexHypothesis.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/include/DetectorsVertexing/SVertexerParams.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Vertexing/src/SVertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-27T15:16:39Z",
+            "title": "Fix for dummy ITS vetrex seeding in cosmice mode",
+            "number": 13436,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TimeFrame.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-03T07:34:04Z",
+            "title": "[QC-TPC] Remove non-mergable canvas objects from PID task. Add switch…",
+            "number": 13437,
+            "author": {
+              "login": "makor"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/include/TPCQC/PID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/qc/src/PID.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-27T20:55:48Z",
+            "title": "Common/Constants: Add hyperhelium5 mass",
+            "number": 13438,
+            "author": {
+              "login": "wang-yuanzhe"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/make_pdg_header.py"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "TOF: add hit info in DM",
+            "number": 13439,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-28T07:22:29Z",
+            "title": "DPL: Add debug message",
+            "number": 13440,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDef.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-28T06:57:22Z",
+            "title": "DPL: Fix endOfStream callback sending old / uninitialized timingInfo values",
+            "number": 13441,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-28T10:58:49Z",
+            "title": "DPL: initialize TimingInfo.timeslice",
+            "number": 13442,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/TimingInfo.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-28T11:48:47Z",
+            "title": "Fix [modernize-make-shared] in clang-tidy",
+            "number": 13443,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/simulation/src/Detector.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T07:03:15Z",
+            "title": "TPC: fix nullptr warning",
+            "number": 13444,
+            "author": {
+              "login": "matthias-kleiner"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/IDCAverageGroup.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T12:40:59Z",
+            "title": "Use -1 for tfCounter and firstTfOrbit during EndOfStream",
+            "number": 13445,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-28T16:06:02Z",
+            "title": "FST: Some cleanup for FST simulation with embedding",
+            "number": 13446,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/IDCAverageGroup.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUROOTSMatrixFwd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full-system-test/pythia8.cfg"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "prodtests/full_system_test.sh"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DCAFitter GPU: add test to validate the implementation",
+            "number": 13447,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/DCAFitterN.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/DCAFitterN.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/cuda/test/testDCAFitterNGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/GPU/test/testDCAFitterNCUDA.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/HelixHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Cartesian.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/SMatrixGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Common/MathUtils/include/MathUtils/Utils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/TrackTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCyl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCylSet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/MatLayerCyl.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/ClusterLinesGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/GeometryFlat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/include/Framework/SHA1.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDefAPI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonMath.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUConstantMem.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxTrackTopologyPol.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefitKernel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackLinearisation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerDebug.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Utils/FlatObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-28T20:04:21Z",
+            "title": "GPU QA: TPC Tracking QA should support multiple MC sources",
+            "number": 13448,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-30T08:04:15Z",
+            "title": "ITS: Alllow ITS3 to inherit and override from ITS Tracking Interface",
+            "number": 13449,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/include/ITStracking/TrackingInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/TrackingInterface.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS3: Move to ITSTrackingInterface",
+            "number": 13450,
+            "author": {
+              "login": "f3sch"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/include/ITS3Reconstruction/TrackingInterface.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/IOUtils.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/reconstruction/src/TrackingInterface.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/workflow/include/ITS3Workflow/TrackerSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ITS3/workflow/src/TrackerSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T06:49:42Z",
+            "title": "GPU Display: Can show TPC clusters and tracks of different collisions…",
+            "number": 13451,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Interface/GPUO2InterfaceDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayKeys.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T15:24:22Z",
+            "title": "GPU TPC: Add cfQMaxCutoffSingleTime and cfQMaxCutoffSinglePad options",
+            "number": 13452,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TPCClusterFinder/ClusterAccumulator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T17:40:55Z",
+            "title": "GPU Display: add option to show help text always without timer",
+            "number": 13453,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayKeys.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-02T15:06:03Z",
+            "title": "[Data model] add expected times",
+            "number": 13454,
+            "author": {
+              "login": "njacazio"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/Constants/include/CommonConstants/PhysicsConstants.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/AnalysisDataModel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "finalizing tool to test TOF digitizer",
+            "number": 13455,
+            "author": {
+              "login": "noferini"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/include/TOFSimulation/Digitizer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/src/Digitizer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T19:38:17Z",
+            "title": "CCDB: Fix timeouts due to taking too much time to expand the vector if Content-length was not understood when received in second header",
+            "number": 13456,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CcdbApi.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-29T19:38:06Z",
+            "title": "DPL: Demote Error to Warning as agreed with Run Coordination",
+            "number": 13457,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ctpdev",
+            "number": 13458,
+            "author": {
+              "login": "lietava"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/Scalers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/include/DataFormatsCTP/ctpRateFetcher.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/CTP/src/ctpRateFetcher.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/CTP/macro/TestFetcher.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-30T00:07:31Z",
+            "title": "Optionally always parse trigger word, extra dump options",
+            "number": 13459,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTLink.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTWord.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/RawPixelDecoder.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/GBTWord.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/STFDecoderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-30T06:33:38Z",
+            "title": "GPU TPC: Improvements for tracking QA and visualization",
+            "number": 13460,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Definitions/GPUSettingsList.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTracking.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Standalone/Benchmark/standalone.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplay.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackend.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGL.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGL.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendOpenGLMagneticField.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayBackendVulkan.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/GPUDisplayKeys.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/shaders/fragment.frag"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/display/shaders/vertexPoint.vert"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/qa/GPUQA.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Follow MC single track and decays reco status",
+            "number": 13461,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/include/GlobalTrackingStudy/TrackMCStudy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/GlobalTrackingStudyLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTrackingWorkflow/study/src/TrackMCStudy.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MC: Fix alignment of entries in MCTruthContainer, Header size must be a multiple of the alignment - DO NOT MERGE, STILL BROKEN",
+            "number": 13462,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/MCLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/MCLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/MCLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/MCLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/MUON/MID/include/DataFormatsMID/MCLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/PHOS/include/DataFormatsPHOS/MCLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/ZDC/include/DataFormatsZDC/MCLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/ConstMCTruthContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCCompLabel.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/include/SimulationDataFormat/MCTruthContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/src/SimulationDataLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/simulation/test/testMCTruthContainer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TOF/simulation/include/TOFSimulation/MCLabel.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-04T08:20:50Z",
+            "title": "CcdbDownloader: Improving error handling",
+            "number": 13463,
+            "author": {
+              "login": "TrifleMichael"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "CCDB/src/CCDBDownloader.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "CLOSED",
+            "mergedAt": null,
+            "title": "Workaround ROOT serialization bug affecting CalDet<PadFlags>",
+            "number": 13464,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/Defs.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/include/TPCBase/CalArray.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/base/src/TPCBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCCCDBHelper.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/IDCGroup.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-30T11:15:33Z",
+            "title": "Fix verbosity parsing in ITS decoder",
+            "number": 13465,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTLink.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "ITS - DeadMapBuilder, adding protection for end of stream",
+            "number": 13466,
+            "author": {
+              "login": "nicolovalle"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/DeadMapBuilderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/workflow/src/DeadMapBuilderSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-08-31T12:06:20Z",
+            "title": "Fixes for calibration data decoding",
+            "number": 13467,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/GBTLink.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-02T14:44:49Z",
+            "title": "o2-eve-workflow: fix number of files problem (urgent)",
+            "number": 13468,
+            "author": {
+              "login": "jmyrcha"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "EventVisualisation/Workflow/src/FileProducer.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-01T14:33:50Z",
+            "title": "GeneratorHEPMc: fix codechecker error",
+            "number": 13469,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Generators/src/GeneratorHepMC.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-03T07:21:58Z",
+            "title": "DPL: do not add summary outputs more than once",
+            "number": 13470,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CompletionPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DataProcessingDevice.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/DeviceSpecHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/TopologyPolicy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "Github Actions: Add new CI checks to clean-PR action",
+            "number": 13471,
+            "author": {
+              "login": "singiamtel"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": ".github/workflows/clean-test.yml"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "added tools to QC to check whether objects is mergeable",
+            "number": 13472,
+            "author": {
+              "login": "justonedev1"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/include/Mergers/Mergeable.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Utilities/Mergers/src/Mergeable.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-04T12:30:57Z",
+            "title": "ITS-GPU: various fixes + separate vertexing kernels",
+            "number": 13473,
+            "author": {
+              "login": "mconcas"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TimeFrameGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/TrackingKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/VertexingKernels.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TimeFrameGPU.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackerTraitsGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/TrackingKernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/VertexerTraitsGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/cuda/VertexingKernels.cu"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/hip/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/src/Vertexer.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/workflow/src/RecoWorkflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-04T17:27:23Z",
+            "title": "DPL: allow printing stacktrace on signposts",
+            "number": 13474,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/runDataProcessing.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/include/Framework/Signpost.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-04T10:43:27Z",
+            "title": "Avoid memory churn when looking up channel",
+            "number": 13475,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/ExternalFairMQDeviceProxy.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ExternalFairMQDeviceProxy.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/test/benchmark_ExternalFairMQDeviceProxies.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FVD detector",
+            "number": 13476,
+            "author": {
+              "login": "pkurash"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/SimConfig/src/SimConfig.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/DetID.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Common/include/DetectorsCommonDataFormats/SimTraits.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FVD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FVD/include/DataFormatsFVD/Hit.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FVD/src/DataFormatsFVDLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/Upgrades/FVD/src/Hits.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Headers/include/Headers/DataHeader.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/base/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/base/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/base/include/FVDBase/FVDBaseParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/base/include/FVDBase/GeometryTGeo.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/base/src/FVDBaseLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/base/src/FVDBaseParam.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/base/src/GeometryTGeo.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/simulation/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/simulation/include/FVDSimulation/Detector.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/simulation/src/Detector.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Upgrades/ALICE3/FVD/simulation/src/FVDSimulationLinkDef.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "macro/build_geometry.C"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "run/o2simdefaultdetectorlist.json"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-04T10:11:58Z",
+            "title": "DPL GUI: remove protection for spurious formatting",
+            "number": 13477,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/GUISupport/src/FrameworkGUIDebugger.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "MFT-MCH matching: Implementing save of N best matching candidates",
+            "number": 13478,
+            "author": {
+              "login": "mcoquet642"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwd.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/include/GlobalTracking/MatchGlobalFwdParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/GlobalTracking/src/MatchGlobalFwd.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-06T18:13:00Z",
+            "title": "ChipMappingMFT::cableHW2SW return 0xff for invalid HW cable ID",
+            "number": 13479,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/common/reconstruction/include/ITSMFTReconstruction/ChipMappingMFT.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-05T10:11:43Z",
+            "title": "ROOT Dictionary: Fix error handling in wrapper for dictionary generation",
+            "number": 13480,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "cmake/rootcling_wrapper.sh.in"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "DPL: Silence another oldestPossible warning after STOP",
+            "number": 13481,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonServices.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FIT: add RecPoint reader and writer workflows for FV0 and FDD",
+            "number": 13482,
+            "author": {
+              "login": "andreasmolander"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/RecPoint.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FDD/src/RecPoint.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/RecPoints.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FT0/src/RecPoints.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/RecPoints.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/FIT/FV0/src/RecPoints.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/include/FDDWorkflow/RecPointReaderSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/src/RecPointReaderSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/src/recpoints-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FDD/workflow/src/recpoints-writer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/recpoints-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FT0/workflow/src/recpoints-writer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/src/recpoints-reader-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/FV0/workflow/src/recpoints-writer-workflow.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/compareRecPoints.C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-05T10:11:59Z",
+            "title": "Remove unused mLabels containers",
+            "number": 13483,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthSourceSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Steer/DigitizerWorkflow/src/MCTruthWriterSpec.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "TPC: standalone dEdx calculation class is extended",
+            "number": 13484,
+            "author": {
+              "login": "tubagundem"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/CalculatedEdx.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/src/CalculatedEdx.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-05T19:16:15Z",
+            "title": "DPL: move analysis topology helper methods to a separate class",
+            "number": 13485,
+            "author": {
+              "login": "ktf"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Framework/Core/CMakeLists.txt"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/include/Framework/CommonDataProcessors.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/AnalysisSupportHelpers.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/ArrowSupport.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/CommonDataProcessors.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Core/src/WorkflowHelpers.h"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "FIT: Set correct path for macro installations",
+            "number": 13486,
+            "author": {
+              "login": "andreasmolander"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/FIT/macros/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-06T10:23:58Z",
+            "title": "GPU: WORKAROUND for CUDA bug exposing device code via host symbols",
+            "number": 13487,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrization.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/src/TrackParametrizationWithError.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-05T18:13:16Z",
+            "title": "GPU HIP CMake: Improve CUDA similarity check, avoid unnecessary recheck",
+            "number": 13488,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/hip/CMakeLists.txt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "MERGED",
+            "mergedAt": "2024-09-06T17:29:19Z",
+            "title": "Possibility to have 1st calibration slot shorter than nominal, use 30% for TPC VDrift",
+            "number": 13489,
+            "author": {
+              "login": "shahor02"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/README.md"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/calibration/include/TPCCalibration/TPCVDriftTglCalibration.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/include/TPCWorkflow/TPCVDriftTglCalibSpec.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/TPCVDriftTglCalibSpec.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TPC/workflow/src/tpc-vdrift-tgl-calibration-workflow.cxx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "state": "OPEN",
+            "mergedAt": null,
+            "title": "GPU: Clean up symbols in libraries and related fixes + more workarounds for the CUDA problem with __device__ symbols leaking to the host linker",
+            "number": 13490,
+            "author": {
+              "login": "davidrohr"
+            },
+            "files": {
+              "edges": [
+                {
+                  "node": {
+                    "path": "Common/DCAFitter/include/DCAFitter/DCAFitterN.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Detectors/TPC/include/DataFormatsTPC/TrackTPC.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackParametrization.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "DataFormats/Reconstruction/include/ReconstructionDataFormats/TrackUtils.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCyl.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/include/DetectorsBase/MatLayerCylSet.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/MatLayerCyl.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/Base/src/Propagator.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/ITSMFT/ITS/tracking/GPU/ITStrackingGPU/ClusterLinesGPU.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Detectors/TRD/base/include/TRDBase/GeometryFlat.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "Framework/Foundation/3rdparty/include/Framework/SHA1.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Common/GPUCommonDefAPI.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Base/GPUConstantMem.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxContainer.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/DataTypes/CalibdEdxTrackTopologyPol.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Global/GPUChainTrackingDebugAndProfiling.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMerger.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Merger/GPUTPCGMMergerGPU.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefit.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/Refit/GPUTrackingRefitKernel.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackLinearisation.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/SliceTracker/GPUTPCTrackParam.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerDebug.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/GPUTracking/TRDTracking/GPUTRDTrackerKernels.cxx"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "GPU/Utils/FlatObject.h"
+                  }
+                },
+                {
+                  "node": {
+                    "path": "dependencies/FindO2GPU.cmake"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
